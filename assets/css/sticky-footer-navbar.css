@@ -1,0 +1,167 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.menuNav{
+  height: 70px;
+  transition: height .3s ease-in-out
+}
+.menuNav_small {
+  height: 20px !important;
+}
+.navbar-nav > .nav-item > a{
+  color:#046FC0 !important;
+  
+}
+
+.navbar-nav > li > a:hover{
+  background: #046FC0;
+  color:white !important;
+}
+
+
+.navbar-nav > .nav-item > a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: bold !important;
+}
+.nav-item > a:hover{
+  background: #8e9194;
+  color:white;
+  border-radius: 0px;
+}
+
+.footer-info{
+  background:#0198F3 ;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.footer-last{
+  background: #004495;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.dropdown-menu{
+  background: #004495 !important;
+  margin-top:-20px !important;
+  border: 0px !important;
+  min-width: 100% !important;
+}
+
+.dropdown-menu > li > .dropdown-item{
+  color:white;
+}
+
+.dropdown-menu > li > .dropdown-item:hover{
+  color:white;
+  background: #004495 !important;
+}
+
+/* fullwidth */
+.dropdown {
+  position:static !important;
+}
+.dropdown-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top:0px !important;
+  width:100% !important;
+}
+
+.headDrop-down{
+  font-size: 1.2rem;
+  padding : 10px 20px;
+}
+
+.searchbox{
+  position:relative;
+  min-width:50px;
+  width:0%;
+  height:50px;
+  overflow:hidden;
+  
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -ms-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  transition: width 0.3s;
+}
+
+.searchbox-input{
+  top:0;
+  right:0;
+  border:0;
+  outline:0;
+  width:100%;
+  height:50px;
+  margin:0;
+  padding:0px 55px 0px 20px;
+  font-size:20px;
+  color:#0198F3;
+}
+.searchbox-input::-webkit-input-placeholder {
+  color: #0198F3;
+}
+.searchbox-input:-moz-placeholder {
+  color: #0198F3;
+}
+.searchbox-input::-moz-placeholder {
+  color: #0198F3;
+}
+.searchbox-input:-ms-input-placeholder {
+  color: #0198F3;
+}
+
+.searchbox-icon,
+.searchbox-submit{
+  float: right !important;
+  width:50px;
+  height:50px;
+  display:block;
+  position:absolute;
+  top:0;
+  font-family:verdana;
+  font-size:22px;
+  right:0;
+  padding:0;
+  margin:0;
+  border:0;
+  outline:0;
+  line-height:50px;
+  text-align:center;
+  cursor:pointer;
+  color:#0198F3;
+  background: white;
+}
+
+.searchbox-open{
+  width:20%;
+}
+
+#owl-demo .item{
+  margin: 10px;
+}
+
+
+/* back to top */
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #0198F3;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+

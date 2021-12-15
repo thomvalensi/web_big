@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/sidebars.css" rel="stylesheet">
+<link href="assets/css/pejabat.css" rel="stylesheet">
+<link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<style>
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+<div id="app">
+    <div>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top p-0 bg-white">
+        <div class="container"><a href="http://web.big-dev.torche.id" class="navbar-brand"><img src="assets/img/NoPath.png" alt="" height="60" style="float: left;"></a> <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon" style="color: rgb(4, 111, 192) !important;"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul id="nav-menu" class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle py-4 px-3 menuNav" href="#" id="menuNav" data-bs-toggle="dropdown" aria-expanded="false">PROFIL</a>
+                <ul class="dropdown-menu py-3" aria-labelledby="dropdown08">
+                  <li><a class="dropdown-item container py-2" href="">SEJARAH</a></li>
+                  <li><a class="dropdown-item container py-2" href="">VISI MISI</a></li>
+                  <li><a class="dropdown-item container py-2" href="">KEDUDUKAN, TUGAS, DAN FUNGSI</a></li>
+                  <li><a class="dropdown-item container py-2" href="">PROGRAM</a></li>
+                  <li><a class="dropdown-item container py-2" href="">STRUKTUR ORGANISASI</a></li>
+                  <li><a class="dropdown-item container py-2" href="http://web.big-dev.torche.id/pejabat">PEJABAT</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="" class="nav-link py-4 px-3 menuNav" id="menuNav">BERITA</a></li>
+              <li class="nav-item"><a href="http://web.big-dev.torche.id/kerjasama" class="nav-link py-4 px-3 menuNav" id="menuNav">LAYANAN PUBLIK</a></li>
+              <li class="nav-item"><a href="#produk" class="nav-link py-4 px-3 menuNav" id="menuNav">PRODUK</a></li>
+              <li class="nav-item"><a href="https://ppid.big.go.id" class="nav-link py-4 px-3 menuNav" id="menuNav">E-PPID</a></li>
+              <li class="nav-item"><a href="#publikasi" class="nav-link py-4 px-3 menuNav" id="menuNav">PUBLIKASI</a></li>
+              <li class="nav-item"><a href="" class="nav-link py-4 px-3 menuNav" id="menuNav">KONTAK</a></li>
+              <li class="nav-item"><a href="https://pgsp.big.go.id" class="nav-link py-4 px-3 menuNav" id="menuNav">PGSP</a></li>
+            </ul>
+            <form class="searchbox my-2">
+              <input type="search" placeholder="Search......" name="search" onkeyup="buttonUp();" required="required" class="searchbox-input">
+              <button class="searchbox-submit fa fa-search"></button>
+              <span class="searchbox-icon"><i aria-hidden="true" class="fa fa-search"></i>
+              </span>
+            </form>
+            <span class="navbar-text py-2">
+              <a href="#">
+                <img src="assets/img/english-flag.png" alt="" height="10px">
+              </a> &nbsp;</span>
+              <span class="navbar-text py-2"> |
+              </span>
+              <span class="navbar-text py-2">&nbsp; <a href="#">
+                <img src="assets/img/flag-400.png" alt="" height="10px"></a>
+              </span>
+          </div>
+        </div>
+      </nav>
+      </div>
+  <!-- Begin page content -->
+  <main class="py-5 mt-3">
+    <div class="container">
+
+      <div class="row">
+        <nav aria-label="breadcrumb" class="mt-2">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active">BERANDA</li>
+            <li class="breadcrumb-item active">PROFIL</li>
+            <li class="breadcrumb-item active">PEJABAT</li>
+          </ol>
+        </nav>
+
+        <!-- sidebar -->
+        <div class="Sidebar col-lg-3 py-5" style="max-height: 500px;">
+          <span class="sidebar-title" >profil</span>
+          <ul class="nav nav-pills flex-column mt-3">
+            <li>
+              <a href="#" class="nav-link link-light px-4" aria-current="page">
+                SEJARAH
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-light px-4">
+                VISI MISI
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-light px-4">
+                KEDUDUKAN, TUGAS DAN FUNGSI
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-light px-4">
+                PROGRAM
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-light px-4">
+                STRUKTUR ORGANISASI
+              </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link link-light px-4">
+                  PEJABAT
+                </a>
+              </li>
+          </ul>
+        </div>
+
+        <!-- content -->
+        <div class="col-lg-8">
+          <span class="content-title">PROFIL PEJABAT</span>
+          <div class="row">
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/1.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">ramdani heru </h5>
+                  <h6>kepala direksi</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/2.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">Pejabat 1</h5>
+                  <h6>direktur finance</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/3.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">Pejabat 2</h5>
+                  <h6>direktur operasional</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/4.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">Pejabat 3</h5>
+                  <h6>hrd</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/5.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">Pejabat 4</h5>
+                  <h6>Sekretaris</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12 my-3">
+              <div class="card p-0">
+                <div class="card-image">
+                  <img src="foto-pejabat/6.png" alt="">
+                </div>
+                <div class="card-content d-flex flex-column align-items-center">
+                  <h5 class="py-2">Pejabat 5</h5>
+                  <h6>supervisor</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div>
+  <footer class="footer-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12 py-2">
+          <div class="col-8 col-xs-12 py-3">
+            <b> BADAN INFORMASI GEOSPASIAL <br>
+                        INTEGRITAS. VISIONET. TANGGUNG JAWAB. KERJASAMA</b>
+                      </div>
+                      <div class="col-8 col-xs-12 py-3">
+                        Jl. Raya Jakarta - Bogor KM 46 Cibinong <br>
+                        16911. INDONESIA
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-xs-12  py-4">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="col-12 py-3">
+                          <div class="row">
+                            <div class="col-sm-3 col-xs-12"><b>Phone</b>
+                            </div>
+                            <div class="col-sm-9 col-xs-12"><b>
+                              <i aria-hidden="true" class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp; 021-8753155</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 py-3">
+                          <div class="row">
+                            <div class="col-sm-3 col-xs-12">
+                              <b>Fax</b>
+                            </div>
+                            <div class="col-sm-9 col-xs-12"><b>
+                              <i aria-hidden="true" class="fa fa-print"></i>&nbsp;&nbsp;&nbsp;&nbsp; 021-87908988/8753155</b>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="col-12 py-3">
+                          <div class="row">
+                            <div class="col-sm-4 col-xs-12"><b>Homepage</b>
+                            </div>
+                            <div class="col-sm-8 col-xs-12"><b>
+                              <i aria-hidden="true" class="fa fa-globe"></i>&nbsp;&nbsp;&nbsp;&nbsp; Big.go.id</b>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 py-3">
+                          <div class="row">
+                            <div class="col-sm-4 col-xs-12"><b>Email</b>
+                            </div>
+                            <div class="col-sm-8 col-xs-12"><b>
+                              <i aria-hidden="true" class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp; info@big.go.id</b>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button id="topBtn"><i aria-hidden="true" class="fa fa-chevron-up"></i></button>
+            </footer>
+            <footer class="footer mt-auto py-3 footer-last">
+              <div class="container"><span>© 2021 BADAN INFORMASI GEOSPASIAL. ALL RIGHTS RESERVED</span></div>
+            </footer>
+          </div>
+</div>
+</body>
+<!-- VUEJS -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
+
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+<script type='text/javascript' src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#topBtn").click(function(){
+    //alert('tes');
+   //1 second of animation time
+   //html works for FFX but not Chrome
+   //body works for Chrome but not FFX
+   //This strange selector seems to work universally
+   $("html, body").animate({scrollTop: 0}, 100);
+});
+    // new Vue({
+    //     el: '#app',
+    //     components: {
+    //         'navmenu' : httpVueLoader('assets/components/navmenu.vue'),
+    //         'footer-component' : httpVueLoader('assets/components/footerComponent.vue'),
+    //     },
+    //     data(){
+    //         return{
+    //             baseUrl:window.location.origin,
+    //             pejabats:null,
+    //         }
+    //     },
+    //     methods:{
+    //         initPejabat(){
+    //             let that=this;
+    //             this.getData(this.baseUrl+"/api/get-profile-pejabat")
+    //             .then(res=>{
+    //                 let pejabat = JSON.parse(res);
+    //                 pejabat.sort(function(a, b) {
+    //                     var keyA = parseInt(a.ordering), keyB = parseInt(b.ordering);
+    //                     // Compare the 2 dates
+    //                     if (keyA < keyB) return -1;
+    //                     if (keyA > keyB) return 1;
+    //                     return 0;
+    //                 });
+    //                 that.pejabats = pejabat;
+    //
+    //             })
+    //         },
+    //         getData(url){
+    //             return new Promise(function (resolve, reject) {
+    //                 $.ajax({
+    //                     url: url,
+    //                     success: function (data) {
+    //                         resolve(data);
+    //                     },
+    //                     error: function (err) {
+    //                         resolve(err);
+    //                     }
+    //                 });
+    //             });
+    //         }
+    //     },
+    //     mounted(){
+    //         this.initPejabat();
+    //     }
+    // });
+
+
+});
+</script>
+<script>
+
+</script>
+</html>
